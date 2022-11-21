@@ -20,15 +20,15 @@ if (a>b){
 		}
 	}
 }
-if(b>c){
-	if(b>d){
+else if(b>c){
+    	if(b>d){
 		printf("B IS MAX");
 	}
-	else{
+    	else{
 		printf("D IS MAX");
 	}
 }
-if(c>a){
+else if(c>a){
 	if(c>d){
 		printf("C IS MAX");
 	}
@@ -36,6 +36,8 @@ if(c>a){
 		printf("D IS MAX");
 	}
 }
+else{
+
 if(d>a){
 	if(d>c){
 		if(d>b){
@@ -45,6 +47,7 @@ if(d>a){
 			printf("B IS MAX");
 		}
 	}
+}
 }
 }
 	
